@@ -22,7 +22,7 @@ export default function Galerie() {
                 <div className="row mx-5 mb-5 pt-5 pb-5 text-center justify-content-center">
                     <div className="col-8 mx-auto mb-2 d-flex flex-column flex-md-row flex-wrap justify-content-center">
                         <div className="">
-                            <img className={`${styles.my_card}`} src="/images/bols.jpeg" alt="..."/>
+                            <img className={`${styles.my_card}`} src="/images/bols.jpeg" alt="bols en gres"/>
                             <div >Bols-Tasses</div>
                         </div>
                         <div className="">
