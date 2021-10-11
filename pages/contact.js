@@ -3,8 +3,30 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import NavBar from '../components/NavBar'
 import Card from 'react-bootstrap/Card'
+import emailjs from 'emailjs-com';
+import Swal from 'sweetalert2'
+import Footer from '../components/Footer'
 
 export default function Contact() {
+
+    function sendEmail(e) {
+        e.preventDefault();
+    
+        emailjs.sendForm('service_if9q8wq', 'contact_form', e.target, 'user_BwL24v0D7KuEvBfg9MBkR')
+          .then((result) => {
+              console.log(result.text);
+              Swal.fire({
+                icon: 'success',
+                title: 'Super !',
+                text: 'Votre message a bien été envoyé',
+              })
+              document.getElementById('contact_form').reset()
+
+          }, (error) => {
+              console.log(error.text);
+          });
+    }
+
   return (
     <div className="">
       <Head>
@@ -20,7 +42,6 @@ export default function Contact() {
                 </div>
                 <div className="row mx-0 pb-5 justify-content-center">
                     <div className="col-5 px-O">
-                        <Card className="border-0">
                             <Image className=""
                                 src="/images/spoons2.jpeg"
                                 alt=""
@@ -29,10 +50,27 @@ export default function Contact() {
                                 layout="responsive"
                                 priority='true'
                             />                   
-                        </Card>
                     </div>
-                </div>
+                    <div className="col-5 px-O">
+                        <h2 className="mt-3 mb-5 text-center">Laissez-moi un message</h2>
+                        <form className="text-center rounded" id="contact_form" onSubmit={sendEmail}>
+                            <input type="hidden" name="contact_number" />
+                            <div className="">
+                                <label htmlFor="name"></label>
+                                <input className="form-control" type="text" name="user_name" id="name" placeholder="Votre nom" required />
+                                <label htmlFor="email"></label>
+                                <input className="form-control" type="email" name="user_email" id="email" placeholder="Votre adresse mail" required />
+                            </div>
+                            <div>
+                                <label htmlFor="message"></label>
+                                <textarea className="mb-3 form-control" rows="5" name="message" id="message" placeholder="Votre message" required />
+                            </div>
+                            <button className='btn btn-outline-dark mt-3 mb-3 fw-bold' type="submit"><i className="bi bi-envelope-fill"></i> ENVOYER</button>
+                        </form>            
+                    </div>
+                </div>   
             </div>
+            <Footer/>
         </main>
     </div>
   )

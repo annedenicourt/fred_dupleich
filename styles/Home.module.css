@@ -1,5 +1,4 @@
 .my_container {
-  width: 80vw;
   background-color: #f2f1f0;
 }
 
@@ -14,3 +13,15 @@
   margin-top: 5px;
   margin-bottom: 0px;
 }
+.my_card {
+  width: 300px !important;
+  height: 300px !important;
+  object-fit: cover;
+}
+
+/*@media screen and (min-width: 1382px) {
+  .my_container {
+    width: 70vw;
+    background-color: #f2f1f0;
+  }
+}*/

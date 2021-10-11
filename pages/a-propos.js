@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import NavBar from '../components/NavBar'
 import Card from 'react-bootstrap/Card'
+import Footer from '../components/Footer'
 
 
 export default function Apropos() {
@@ -22,19 +23,18 @@ export default function Apropos() {
                 </div>
                 <div className="row mx-0 pb-5 justify-content-center">
                     <div className="col-5 px-O">
-                        <Card className="border-0">
-                            <Image className=""
-                                src="/images/spoons2.jpeg"
-                                alt=""
-                                width={2448}
-                                height={3264} 
-                                layout="responsive"
-                                priority='true'
-                            />                   
-                        </Card>
+                        <Image className=""
+                            src="/images/four.jpeg"
+                            alt=""
+                            width={2448}
+                            height={3264} 
+                            layout="responsive"
+                            priority='true'
+                        />                   
                     </div>
                 </div>
             </div>
+            <Footer/>
         </main>
     </div>
   )
