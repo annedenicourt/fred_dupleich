@@ -2,9 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import NavBar from '../components/NavBar'
-import Card from 'react-bootstrap/Card'
 import Footer from '../components/Footer'
-
 
 export default function Apropos() {
   return (
@@ -17,7 +15,7 @@ export default function Apropos() {
         </Head>
 
         <main>
-            <div className={`${styles.my_container} container-fluid mx-auto`}>            
+            <div className={`${styles.my_container2} container mx-auto`}>            
                 <div className="row mx-0 justify-content-center">
                     <NavBar/>
                 </div>

@@ -1,5 +1,24 @@
 .my_container {
   background-color: #f2f1f0;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+.my_container2 {
+  height: calc(100vh - 80px);
+  background-color: #f2f1f0;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .active::after {
@@ -13,10 +32,25 @@
   margin-top: 5px;
   margin-bottom: 0px;
 }
-.my_card {
+.my_card_image {
   width: 300px !important;
   height: 300px !important;
   object-fit: cover;
+}
+.my_card:hover img {
+  filter: opacity(0.8);
+  cursor: pointer;
+}
+.my_card i {
+  display: none;
+}
+.my_card:hover i {
+  display: block;
+  color: white;
+  cursor: pointer;
+}
+.my_footer {
+  height: 80px;
 }
 
 /*@media screen and (min-width: 1382px) {

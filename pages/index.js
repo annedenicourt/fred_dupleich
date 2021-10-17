@@ -1,9 +1,6 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import NavBar from '../components/NavBar'
-import Card from 'react-bootstrap/Card'
-import CardGroup from 'react-bootstrap/CardGroup'
 import Gallery from "react-photo-gallery";
 import { photos } from "../data/dataList.js";
 import Footer from '../components/Footer'
@@ -23,12 +20,13 @@ export default function Home() {
                 <div className="row mx-0 justify-content-center">
                     <NavBar/>
                 </div>
-
+               
                 <div className="row mx-lg-5 px-lg-5 justify-content-center">
                     <div className="col col-lg-10 mx-5 px-lg-5 pb-5">
                         <Gallery photos={photos}  />   
                     </div>            
                 </div>
+                
             </div>
             <Footer/>
         </main>

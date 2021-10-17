@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import NavBar from '../components/NavBar'
-import Card from 'react-bootstrap/Card'
 import emailjs from 'emailjs-com';
 import Swal from 'sweetalert2'
 import Footer from '../components/Footer'
@@ -36,7 +35,7 @@ export default function Contact() {
       </Head>
 
       <main>
-            <div className={`${styles.my_container} container-fluid mx-auto`}>            
+            <div className={`${styles.my_container2} container mx-auto`}>            
                 <div className="row mx-0 justify-content-center">
                     <NavBar/>
                 </div>
@@ -52,7 +51,10 @@ export default function Contact() {
                             />                   
                     </div>
                     <div className="col-5 px-O">
-                        <h2 className="mt-3 mb-5 text-center">Laissez-moi un message</h2>
+                        <h2 className="mt-5 text-center">Laissez-moi un message</h2>
+                        <div className={`text-center mt-3`}>
+                            <img src="/images/flower2.png" width="30" alt="" />   
+                        </div> 
                         <form className="text-center rounded" id="contact_form" onSubmit={sendEmail}>
                             <input type="hidden" name="contact_number" />
                             <div className="">
@@ -66,7 +68,10 @@ export default function Contact() {
                                 <textarea className="mb-3 form-control" rows="5" name="message" id="message" placeholder="Votre message" required />
                             </div>
                             <button className='btn btn-outline-dark mt-3 mb-3 fw-bold' type="submit"><i className="bi bi-envelope-fill"></i> ENVOYER</button>
-                        </form>            
+                        </form>
+                        <div className="text-center mt-5">
+                            <button className="border rounded-pill p-2"><a className="text-reset" target="_blank" href="https://www.instagram.com/frederique.dupleich/?hl=fr"><i className="bi bi-instagram ms-2 me-3"></i>Retrouvez-moi sur Instagram</a></button>            
+                        </div>
                     </div>
                 </div>   
             </div>

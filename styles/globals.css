@@ -19,3 +19,6 @@ a {
 * {
   box-sizing: border-box;
 }
+.ril__outer {
+  background-color: #f2f1f0 !important;
+}

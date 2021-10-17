@@ -16,13 +16,12 @@ export default function Atelier() {
       </Head>
 
         <main>
-            <div className={`${styles.my_container} mx-auto`}>            
+            <div className={`${styles.my_container} container mx-auto`}>            
                 <div className="row mx-0 justify-content-center">
                     <NavBar/>
                 </div>
-                <div className="row mx-0 d-flex flex-column flex-md-row justify-content-center align-items-center">
-                    
-                    <div className="col col-md-5">
+                <div className="row mx-0 d-flex flex-column flex-md-row justify-content-center ">
+                    <div className="col col-md-5 px-5 mt-4">
                         <Image className=""
                             src="/images/mains2.jpeg"
                             alt=""
@@ -30,12 +29,19 @@ export default function Atelier() {
                             height={2082} 
                             layout="responsive"
                             priority='true'
+                        />
+                        <Image className=""
+                            src="/images/mains3.jpeg"
+                            alt=""
+                            width={2020}
+                            height={2068} 
+                            layout="responsive"
+                            priority='true'
                         />                   
                     </div>
-                    <div className={`${styles.my_position} col col-md-5`}>
-                        <div className="mb-3">
-                            <p className="fs-4 mx-4 mb-5 text-center">Je vous propose d'octobre à juin des cours hebdomadaires mais aussi des stages thématiques dans mon atelier situé à Tournefeuille.</p>
-                        </div>
+                    <div className={`col col-md-5 mb-3 mt-3 text-center`}>
+                        <p className="fs-5 mx-4 text-center">Je vous propose d'octobre à juin des cours hebdomadaires mais aussi des stages thématiques dans mon atelier situé à Tournefeuille.</p>
+                        
                         <div className={`p-3 px-lg-5 py-lg-3 mt-4 mb-4 mt-md-0 bg-light shadow`}>
                             <h1 className="mb-4">Cours de modelage</h1>
                             <table className="table table-bordered table-hover text-center fs-5">
@@ -64,11 +70,10 @@ export default function Atelier() {
                                     </tr>
                                 </tbody>
                             </table>
-                        </div>    
-                    </div>
-                </div>
-                <div className="row mx-0 pb-5 d-flex flex-column flex-md-row justify-content-center align-items-center">
-                    <div className={`${styles.my_position} col col-md-5`}>
+                        </div>
+                        <div className={`text-center mb-4`}>
+                            <img src="/images/flower2.png" width="40" alt="" />   
+                        </div> 
                         <div className={`p-3 px-lg-5 py-lg-3 bg-light shadow`}>
                             <h2 className="mb-4 fs-1">Stages</h2>
                             <div className="fs-4 fw-bold mb-3">Décors de Noel, pampilles, boules, guirlandes etc… en porcelaine papier</div>
@@ -80,16 +85,6 @@ export default function Atelier() {
                             <div className="mb-3 border-bottom pb-4">Prix ? 90€</div>
                             <div className="text-muted text-center mt-2">Les prix des stages comprennent les terres, l’émail, le matériel et les cuissons (1 à 2 cuissons)</div>                   
                         </div>
-                    </div>
-                    <div className="col col-md-5 d-none d-md-block ">
-                        <Image className=""
-                            src="/images/mains3.jpeg"
-                            alt=""
-                            width={1696}
-                            height={2082} 
-                            layout="responsive"
-                            priority='true'
-                        />                   
                     </div>
                 </div>
             </div>
