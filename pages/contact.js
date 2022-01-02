@@ -1,5 +1,3 @@
-/* eslint-disable no-console */
-/* eslint-disable jsx-a11y/label-has-associated-control */
 import React from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
