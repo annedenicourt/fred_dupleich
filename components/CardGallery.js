@@ -9,7 +9,7 @@ export default function CardGallery(props) {
 
   return (
     <div className="position-relative mb-3 me-1">
-      <Link href={`/collections/${props.name}`}>
+      <Link href={`/collections/${props.id}`}>
         <div className={`${styles.my_card}`}>
           <img className={`${styles.my_card_image}`} src={props.image} alt="poterie en gres" />
           <i className="bi bi-plus position-absolute top-50 start-50 translate-middle rounded-pill" />

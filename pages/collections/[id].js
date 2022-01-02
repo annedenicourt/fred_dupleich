@@ -11,8 +11,10 @@ export default function Collection() {
   const router = useRouter();
   const { id } = router.query;
 
-  const filter = categories.filter((category) => category.name === id);
+  const filter = categories.filter((category) => category.id === id);
+  const filter2 = categories.filter((category) => category.id === id);
   console.log(filter);
+  console.log(id)
 
   return (
     <div className="">
@@ -30,7 +32,7 @@ export default function Collection() {
             <div className="col-9">
               <div className="mb-3">
                 <div className={`${styles.my_font} fs-4 me-3`}>Collections</div>
-                <div className="fs-4">{id}</div>
+                <div className="fs-4">{filter[0].name}</div>
               </div>
               <Carousel
                 name={filter[0].name}

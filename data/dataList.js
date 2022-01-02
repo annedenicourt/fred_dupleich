@@ -50,7 +50,7 @@ export const photos = [
   export const categories = [
     
     {
-      id: 1,
+      id: "1",
       name: 'Bols-Tasses',
       image:'/images/bols.jpeg',
       gallery: [
@@ -66,7 +66,7 @@ export const photos = [
       ],
     },
     {
-      id: 2,
+      id: "2",
       name: 'Saladiers-Plats',
       image:'/images/saladier1.jpeg',
       gallery: [
@@ -82,7 +82,7 @@ export const photos = [
       ],
     },
     {
-      id: 3,
+      id: "3",
       name: 'Cuillères',
       image:'/images/spoons2.jpg',
       gallery: [
@@ -98,7 +98,7 @@ export const photos = [
       ]
     },
     {
-      id: 4,
+      id: "4",
       name: 'Pichets-Théières',
       image:'/images/pichets3.jpeg',
       gallery: [
@@ -114,7 +114,7 @@ export const photos = [
       ],
     },
     {
-      id: 5,
+      id: "5",
       name: 'Vases',
       image:'/images/all_vases3.jpeg',
       gallery: [
@@ -130,7 +130,7 @@ export const photos = [
       ],
     },
     {
-      id: 6,
+      id: "6",
       name: 'Fruits-Végétaux',
       image:'/images/mix_vegetal4.jpeg',
       gallery: [
