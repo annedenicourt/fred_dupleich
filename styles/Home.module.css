@@ -1,12 +1,11 @@
 .my_container {
-  background-color: #f2f1f0;
+  background-color: rgba(255, 255, 255, 0.3);
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
 .my_container2 {
-  height: calc(100vh - 80px);
-  background-color: #f2f1f0;
+  background-color: rgba(255, 255, 255, 0.3);
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -37,6 +36,10 @@
   height: 300px !important;
   object-fit: cover;
 }
+.my_card_image2 {
+  height: 300px !important;
+  object-fit: cover;
+}
 .my_card:hover img {
   filter: opacity(0.8);
   cursor: pointer;
@@ -50,12 +53,38 @@
   cursor: pointer;
 }
 .my_footer {
-  height: 80px;
+  height: 60px;
 }
-
-/*@media screen and (min-width: 1382px) {
-  .my_container {
-    width: 70vw;
-    background-color: #f2f1f0;
+.my_slide {
+  object-fit: cover;
+  height: 350px;
+}
+.my_font {
+  font-family: "Homemade Apple", cursive;
+  color: grey;
+  opacity: 0.3;
+}
+.my_link {
+  cursor: pointer;
+}
+.my_bg {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.aboutme {
+  margin-top: -100px;
+  z-index: 1;
+}
+@media screen and (min-width: 768px) {
+  .aboutme {
+    margin-top: -150px;
   }
-}*/
+}
+@media screen and (min-width: 992px) {
+  .my_container2 {
+    height: calc(100vh - 60px);
+  }
+  .aboutme {
+    margin-left: -100px;
+    margin-top: 200px;
+  }
+}

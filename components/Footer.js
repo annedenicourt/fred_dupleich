@@ -7,7 +7,7 @@ export default function Footer() {
     let currentYear = date.getFullYear()
 
     return (  <>
-        <div className={`${styles.my_footer} row mx-0 pb-3 align-items-center`}>
+        <div className={`${styles.my_footer} row mx-0 pb-1 align-items-center`}>
             <div className="col ">
                 <div className="text-center fw-bold">Tous droits réservés ® Copyright Frédérique Dupleich Céramiste {currentYear}</div>
             </div>

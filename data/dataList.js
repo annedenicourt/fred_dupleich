@@ -1,29 +1,24 @@
 export const photos = [
-    {
-        src: '/images/spoons2.jpeg',
-        width: 3,
-        height: 4
-    },
+    
     {
       src: '/images/artichaut2.jpeg',
       width: 4,
       height: 3
     },
     {
-      src: '/images/bols.jpeg',
-      width: 3,
-      height: 4
-    },
-    
-    {
       src: '/images/tasses.jpeg',
       width: 4,
       height: 3
     },
     {
-        src: '/images/vue1.jpeg',
-        width: 3,
-        height: 4
+      src: 'https://frederiquedupleich.s3.eu-west-3.amazonaws.com/03_cuilleres/spoons5.jpeg',
+      width: 3,
+      height: 4
+  },
+    {
+      src: '/images/bols.jpeg',
+      width: 3,
+      height: 4
     },
     {
         src: '/images/figues6.jpeg',
@@ -35,6 +30,21 @@ export const photos = [
         width: 4,
         height: 3
     },
+    {
+      src: '/images/all_vases3.jpeg',
+      width: 4,
+      height: 3
+    },
+    {
+      src: '/images/saladier2.jpeg',
+      width: 4,
+      height: 3
+    },
+    {
+      src: '/images/artichaut.jpeg',
+      width: 3,
+      height: 4
+    }
   ];
 
   export const categories = [
@@ -74,7 +84,7 @@ export const photos = [
     {
       id: 3,
       name: 'Cuillères',
-      image:'/images/spoons2.jpeg',
+      image:'/images/spoons2.jpg',
       gallery: [
         {
             image: 'https://frederiquedupleich.s3.eu-west-3.amazonaws.com/03_cuilleres/spoons.jpeg',
