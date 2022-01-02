@@ -7,14 +7,15 @@ import Footer from '../../components/Footer';
 import Carousel from '../../components/Carousel';
 import { categories } from '../../data/dataList';
 
-export default function Collection() {
+export default function Collection(params) {
   const router = useRouter();
   const { id } = router.query;
 
   const filter = categories.filter((category) => category.id === id);
-  const filter2 = categories.filter((category) => category.id === id);
+  const filter2 = categories.filter((category) => category.name === params.params.id);
   console.log(filter);
-  console.log(id)
+  console.log(filter2);
+
 
   return (
     <div className="">
@@ -32,13 +33,13 @@ export default function Collection() {
             <div className="col-9">
               <div className="mb-3">
                 <div className={`${styles.my_font} fs-4 me-3`}>Collections</div>
-                <div className="fs-4">{filter[0].name}</div>
+                <div className="fs-4">{filter2[0].name}</div>
               </div>
               <Carousel
-                name={filter[0].name}
-                id={filter[0].id}
-                images={filter[0].gallery}
-                image={filter[0].image}
+                name={filter2[0].name}
+                id={filter2[0].id}
+                images={filter2[0].gallery}
+                image={filter2[0].image}
               />
             </div>
             <div className="text-center mt-5">
@@ -57,3 +58,16 @@ export default function Collection() {
     </div>
   );
 }
+
+  export async function getStaticPaths() {
+    // Get the paths we want to pre-render based on posts
+    const paths = categories.map((category) => ({
+      params: { id: category.name },
+    }))
+    return { paths, fallback: false }
+  }
+
+  export async function getStaticProps({ params }) {
+    // Pass post data to the page via props
+    return { props: { params } }
+  }
