@@ -1,9 +1,9 @@
-import React from 'react';
-import Head from 'next/head';
-import Image from 'next/image';
-import styles from '../styles/Home.module.css';
-import NavBar from '../components/NavBar';
-import Footer from '../components/Footer';
+import React from "react";
+import Head from "next/head";
+import Image from "next/image";
+import styles from "../styles/Home.module.css";
+import NavBar from "../components/NavBar";
+import Footer from "../components/Footer";
 
 export default function Actualites() {
   return (
@@ -14,21 +14,44 @@ export default function Actualites() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <div className={`${styles.my_container2} container mx-auto`}>
+        <div className={`${styles.my_container2} container-xl mx-auto`}>
           <div className="row mx-0 justify-content-center">
             <NavBar />
           </div>
-          <div className="row mx-0 pb-5 justify-content-center">
-            <div className="col-5 px-O">
-              <Image
-                className=""
-                src="/images/spoons2.jpeg"
-                alt=""
-                width={2448}
-                height={3264}
-                layout="responsive"
-                priority="true"
-              />
+          <div className="row mx-5 mb-2 pt-4 justify-content-center align-items-center ">
+            <div className={`col col-lg-11 col-xxl-10`}>
+              <div className="card p-0 mb-3 shadow-lg border-0">
+                <div
+                  className={`${styles.bg_card} row g-0 d-flex flex-column flex-lg-row align-items-center bg-light rounded`}
+                >
+                  <div className="col">
+                    <img
+                      src="/images/four.jpeg"
+                      className="img-fluid rounded-start"
+                      alt="..."
+                    />
+                  </div>
+                  <div className="col text-center">
+                    <div className="card-body">
+                      <div className="fw-bold fs-5 my-3">
+                        Retrouvez-moi sur les marchés de potiers <br />
+                        et à la Cité Potière à Carcassonne
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="row mx-5 mb-3 justify-content-center align-items-center">
+              <div className={`col text-center`}>
+                <div className="text-center mt-4 mt-xXl-2 mb-4">
+                  <button className="px-3 py-2 mt-4 border shadow rounded-pill ">
+                    <a className="text-reset" href="/galerie">
+                      Découvrez mon univers{" "}
+                    </a>
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         </div>

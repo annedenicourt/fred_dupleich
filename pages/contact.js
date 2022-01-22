@@ -1,28 +1,37 @@
-import React from 'react';
-import Head from 'next/head';
-import Image from 'next/image';
-import emailjs from 'emailjs-com';
-import Swal from 'sweetalert2';
-import styles from '../styles/Home.module.css';
-import NavBar from '../components/NavBar';
-import Footer from '../components/Footer';
+import React from "react";
+import Head from "next/head";
+import Image from "next/image";
+import emailjs from "emailjs-com";
+import Swal from "sweetalert2";
+import styles from "../styles/Home.module.css";
+import NavBar from "../components/NavBar";
+import Footer from "../components/Footer";
 
 export default function Contact() {
   function sendEmail(e) {
     e.preventDefault();
 
-    emailjs.sendForm('service_if9q8wq', 'contact_form', e.target, 'user_BwL24v0D7KuEvBfg9MBkR')
-      .then((result) => {
-        console.log(result.text);
-        Swal.fire({
-          icon: 'success',
-          title: 'Super !',
-          text: 'Votre message a bien été envoyé',
-        });
-        document.getElementById('contact_form').reset();
-      }, (error) => {
-        console.log(error.text);
-      });
+    emailjs
+      .sendForm(
+        "service_if9q8wq",
+        "contact_form",
+        e.target,
+        "user_BwL24v0D7KuEvBfg9MBkR"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          Swal.fire({
+            icon: "success",
+            title: "Super !",
+            text: "Votre message a bien été envoyé",
+          });
+          document.getElementById("contact_form").reset();
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
   }
 
   return (
@@ -34,59 +43,102 @@ export default function Contact() {
       </Head>
 
       <main>
-        <div className={`${styles.my_container2} container mx-auto`}>
+        <div className={`${styles.my_container2} container-xl mx-auto`}>
           <div className="row mx-0 justify-content-center">
             <NavBar />
           </div>
-          <div className="row mx-0 pb-5 d-flex flex-column flex-lg-row justify-content-center align-items-center">
-            <div className="col col-lg-5 px-O">
-              <Image
-                className=""
-                src="/images/spoons2.jpeg"
-                alt=""
-                width={2448}
-                height={3264}
-                layout="responsive"
-                priority="true"
-              />
-            </div>
-            <div className="col col-lg-5 px-O">
-              <div className="mt-5 mb-5 text-center">
-                <div className="fs-5 mb-3 ">
-                  <i className="me-3 bi bi-telephone" />
-                  07 69 29 63 82
-                </div>
-                <div className="fs-5">
-                  <i className="me-3 bi bi-envelope" />
-                  frederique.dupleich@gmail.com
+          <div className="row mx-5 mb-2 pt-4 justify-content-center align-items-center ">
+            <div className={`col col-lg-11 col-xxl-10`}>
+              <div className="card p-0 mb-3 shadow-lg border-0">
+                <div
+                  className={`${styles.bg_card} row g-0 d-flex flex-column flex-lg-row align-items-center bg-light rounded`}
+                >
+                  <div className="col">
+                    <img
+                      src="/images/four.jpeg"
+                      className="img-fluid rounded-start"
+                      alt="..."
+                    />
+                  </div>
+                  <div className="col text-center">
+                    <div className="card-body flex align-items-stretch">
+                      <div className=" mb-5 text-center">
+                        <div className="fs-5 mb-3 ">
+                          <i className="me-3 bi bi-telephone" />
+                          07 69 29 63 82
+                        </div>
+                        <div className="fs-5">
+                          <i className="me-3 bi bi-envelope" />
+                          frederique.dupleich@gmail.com
+                        </div>
+                      </div>
+                      <h3 className="mb-4 text-center">
+                        Laissez-moi un message
+                      </h3>
+                      <form
+                        className="text-center rounded mx-4 "
+                        id="contact_form"
+                        onSubmit={sendEmail}
+                      >
+                        <input type="hidden" name="contact_number" />
+                        <div className="">
+                          <label htmlFor="name" />
+                          <input
+                            className="form-control"
+                            type="text"
+                            name="user_name"
+                            id="name"
+                            placeholder="Votre nom"
+                            required
+                          />
+                          <label htmlFor="email" />
+                          <input
+                            className="form-control"
+                            type="email"
+                            name="user_email"
+                            id="email"
+                            placeholder="Votre adresse mail"
+                            required
+                          />
+                        </div>
+                        <div>
+                          <label htmlFor="message" />
+                          <textarea
+                            className="mb-3 form-control"
+                            rows="5"
+                            name="message"
+                            id="message"
+                            placeholder="Votre message"
+                            required
+                          />
+                        </div>
+                        <button
+                          className="btn btn-outline-dark mt-3 mb-3 fw-bold"
+                          type="submit"
+                        >
+                          <i className="bi bi-envelope-fill" /> ENVOYER
+                        </button>
+                      </form>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <h3 className="mb-4 text-center">Laissez-moi un message</h3>
-              <form className="text-center rounded" id="contact_form" onSubmit={sendEmail}>
-                <input type="hidden" name="contact_number" />
-                <div className="">
-                  <label htmlFor="name" />
-                  <input className="form-control" type="text" name="user_name" id="name" placeholder="Votre nom" required />
-                  <label htmlFor="email" />
-                  <input className="form-control" type="email" name="user_email" id="email" placeholder="Votre adresse mail" required />
+            </div>
+            <div className="row mx-5 mb-3 justify-content-center align-items-center">
+              <div className={`col text-center`}>
+                <div className="text-center mt-4 mt-xxl-4 mb-4">
+                  <button className="border rounded-pill p-2" type="button">
+                    <a
+                      className="text-reset"
+                      target="_blank"
+                      href="https://www.instagram.com/frederique.dupleich/?hl=fr"
+                      rel="noreferrer"
+                    >
+                      <i className="bi bi-instagram ms-2 me-3" />
+                      Retrouvez-moi sur Instagram
+                    </a>
+                  </button>
                 </div>
-                <div>
-                  <label htmlFor="message" />
-                  <textarea className="mb-3 form-control" rows="5" name="message" id="message" placeholder="Votre message" required />
-                </div>
-                <button className="btn btn-outline-dark mt-3 mb-3 fw-bold" type="submit">
-                  <i className="bi bi-envelope-fill" />
-                  {' '}
-                  ENVOYER
-                </button>
-              </form>
-              <div className="text-center mt-5">
-                <button className="border rounded-pill p-2" type="button">
-                  <a className="text-reset" target="_blank" href="https://www.instagram.com/frederique.dupleich/?hl=fr" rel="noreferrer">
-                    <i className="bi bi-instagram ms-2 me-3" />
-                    Retrouvez-moi sur Instagram
-                  </a>
-                </button>
               </div>
             </div>
           </div>

@@ -1,11 +1,11 @@
-import React from 'react';
-import Head from 'next/head';
-import styles from '../styles/Home.module.css';
-import NavBar from '../components/NavBar';
-import Footer from '../components/Footer';
-import { categories } from '../data/dataList';
-import 'react-image-lightbox/style.css';
-import CardGallery from '../components/CardGallery';
+import React from "react";
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
+import NavBar from "../components/NavBar";
+import Footer from "../components/Footer";
+import { categories } from "../data/dataList";
+import "react-image-lightbox/style.css";
+import CardGallery from "../components/CardGallery";
 
 export default function Galerie() {
   return (
@@ -16,12 +16,12 @@ export default function Galerie() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <div className={`${styles.my_container2} container mx-auto`}>
+        <div className={`${styles.my_container2} container-xl mx-auto`}>
           <div className="row mx-0 justify-content-center">
             <NavBar />
           </div>
-          <div className="row mx-0 mx-xl-5 mb-5 pt-4 pb-5 text-center justify-content-center">
-            <div className="col mx-auto mb-2 d-flex flex-column flex-md-row flex-wrap justify-content-center">
+          <div className="row mx-0 mx-xl-5 mb-5 pb-5 text-center justify-content-center">
+            <div className="col mx-auto mb-5 d-flex flex-column flex-md-row flex-wrap justify-content-center">
               {categories.map((category) => (
                 <div className="" key={category.id}>
                   <CardGallery
@@ -32,6 +32,19 @@ export default function Galerie() {
                   />
                 </div>
               ))}
+            </div>
+            <div className="text-center mt-4 mb-5">
+              <button className="border rounded-pill p-2" type="button">
+                <a
+                  className="text-reset"
+                  target="_blank"
+                  href="https://www.instagram.com/frederique.dupleich/?hl=fr"
+                  rel="noreferrer"
+                >
+                  <i className="bi bi-instagram ms-2 me-3" />
+                  Plus de photos sur Instagram
+                </a>
+              </button>
             </div>
           </div>
         </div>

@@ -30,21 +30,6 @@ export const photos = [
         width: 4,
         height: 3
     },
-    {
-      src: '/images/all_vases3.jpeg',
-      width: 4,
-      height: 3
-    },
-    {
-      src: '/images/saladier2.jpeg',
-      width: 4,
-      height: 3
-    },
-    {
-      src: '/images/artichaut.jpeg',
-      width: 3,
-      height: 4
-    }
   ];
 
   export const categories = [

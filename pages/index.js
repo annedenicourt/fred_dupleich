@@ -1,10 +1,10 @@
-import React from 'react';
-import Head from 'next/head';
-import Gallery from 'react-photo-gallery';
-import styles from '../styles/Home.module.css';
-import NavBar from '../components/NavBar';
-import { photos } from '../data/dataList';
-import Footer from '../components/Footer';
+import React from "react";
+import Head from "next/head";
+import Gallery from "react-photo-gallery";
+import styles from "../styles/Home.module.css";
+import NavBar from "../components/NavBar";
+import { photos } from "../data/dataList";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -16,18 +16,23 @@ export default function Home() {
       </Head>
 
       <main>
-        <div className={`${styles.my_container} container mx-auto`}>
+        <div className={`${styles.my_container2} container-xl mx-auto`}>
           <div className="row mx-5 justify-content-center ">
             <NavBar />
           </div>
 
           <div className="row mx-0 justify-content-center">
-            <div className="col-9 pb-5">
+            <div className="col-11 pb-5">
               <Gallery photos={photos} />
             </div>
-            <div className="text-center mb-5">
+            <div className="text-center mt-4 mb-5">
               <button className="border rounded-pill p-2" type="button">
-                <a className="text-reset" target="_blank" href="https://www.instagram.com/frederique.dupleich/?hl=fr" rel="noreferrer">
+                <a
+                  className="text-reset"
+                  target="_blank"
+                  href="https://www.instagram.com/frederique.dupleich/?hl=fr"
+                  rel="noreferrer"
+                >
                   <i className="bi bi-instagram ms-2 me-3" />
                   Plus de photos sur Instagram
                 </a>
