@@ -15,17 +15,17 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-        <div className={`${styles.my_container2} container-xl mx-auto`}>
+      <main className="">
+        <div className={`${styles.my_container} container-xl mx-auto`}>
           <div className="row mx-5 justify-content-center ">
             <NavBar />
           </div>
 
           <div className="row mx-0 justify-content-center">
-            <div className="col-11 pb-5">
+            <div className="col-11 col-md-10 pb-4">
               <Gallery photos={photos} />
             </div>
-            <div className="text-center mt-4 mb-5">
+            <div className="text-center mt-2 mb-5">
               <button className="border rounded-pill p-2" type="button">
                 <a
                   className="text-reset"

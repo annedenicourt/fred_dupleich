@@ -43,12 +43,12 @@ export default function Contact() {
       </Head>
 
       <main>
-        <div className={`${styles.my_container2} container-xl mx-auto`}>
+        <div className={`${styles.my_container} container-xl mx-auto`}>
           <div className="row mx-0 justify-content-center">
             <NavBar />
           </div>
-          <div className="row mx-5 mb-2 pt-4 justify-content-center align-items-center ">
-            <div className={`col col-lg-11 col-xxl-10`}>
+          <div className="row mx-5 mb-2 justify-content-center align-items-center ">
+            <div className={`col col-lg-10 col-xxl-9`}>
               <div className="card p-0 mb-3 shadow-lg border-0">
                 <div
                   className={`${styles.bg_card} row g-0 d-flex flex-column flex-lg-row align-items-center bg-light rounded`}
@@ -72,9 +72,9 @@ export default function Contact() {
                           frederique.dupleich@gmail.com
                         </div>
                       </div>
-                      <h3 className="mb-4 text-center">
+                      <h4 className="mb-4 text-center">
                         Laissez-moi un message
-                      </h3>
+                      </h4>
                       <form
                         className="text-center rounded mx-4 "
                         id="contact_form"
@@ -121,23 +121,6 @@ export default function Contact() {
                       </form>
                     </div>
                   </div>
-                </div>
-              </div>
-            </div>
-            <div className="row mx-5 mb-3 justify-content-center align-items-center">
-              <div className={`col text-center`}>
-                <div className="text-center mt-4 mt-xxl-4 mb-4">
-                  <button className="border rounded-pill p-2" type="button">
-                    <a
-                      className="text-reset"
-                      target="_blank"
-                      href="https://www.instagram.com/frederique.dupleich/?hl=fr"
-                      rel="noreferrer"
-                    >
-                      <i className="bi bi-instagram ms-2 me-3" />
-                      Retrouvez-moi sur Instagram
-                    </a>
-                  </button>
                 </div>
               </div>
             </div>

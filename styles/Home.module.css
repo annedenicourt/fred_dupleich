@@ -1,5 +1,6 @@
 .my_container {
-  background-color: rgba(255, 255, 255, 0.3);
+  /*   background-color: rgba(255, 255, 255, 0.3);
+ */
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -55,12 +56,12 @@
   cursor: pointer;
 }
 .my_footer {
-  height: 50px;
+  height: 40px;
   font-size: 0.9em;
 }
 .my_slide {
   object-fit: cover;
-  height: 600px;
+  height: 570px;
   border-right: solid 8px white;
   cursor: pointer;
 }
@@ -79,14 +80,10 @@
 .my_bg {
   background-color: rgba(255, 255, 255, 0.5);
 }
-.aboutme {
-  margin-top: -100px;
-  z-index: 1;
-}
 
 @media screen and (min-width: 992px) {
   .my_container2 {
-    height: calc(100vh - 50px);
+    height: calc(100vh - 40px);
   }
   .aboutme {
     margin-left: -100px;

@@ -50,7 +50,7 @@ export default function Carousel({ name, id, images, image, onClick }) {
           />
         ))}
       </Slider>
-      <Modal show={show} onHide={handleClose} size="lg" centered>
+      <Modal show={show} onHide={handleClose} centered>
         <Modal.Body>
           <img src={selectedImage} className="w-100" alt="" />
         </Modal.Body>

@@ -8,7 +8,7 @@ export default function CardGallery(props) {
   const image = images.map((item) => item.image);
 
   return (
-    <div className="position-relative mb-3 me-1">
+    <div className="position-relative mb-1 me-1">
       <Link href={`/collections/${props.name}`}>
         <div className={`${styles.my_card}`}>
           <img

@@ -15,12 +15,12 @@ export default function Atelier() {
       </Head>
 
       <main>
-        <div className={`${styles.my_container2} container-xl pb-2 mx-auto`}>
+        <div className={`${styles.my_container} container-xl pb-2 mx-auto`}>
           <div className="row mx-0 justify-content-center">
             <NavBar />
           </div>
-          <div className="row mx-5 mb-2 pt-4 justify-content-center align-items-center">
-            <div className={`col col-lg-11 col-xxl-10`}>
+          <div className="row mx-5 mb-2 justify-content-center align-items-center">
+            <div className={`col col-lg-11 col-xxl-9`}>
               <div className="card p-0 mb-3 shadow-lg border-0">
                 <div
                   className={`${styles.bg_card} row g-0 d-flex flex-column flex-lg-row align-items-center border-0 rounded`}

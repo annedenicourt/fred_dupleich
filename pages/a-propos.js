@@ -14,13 +14,13 @@ export default function Apropos() {
       </Head>
 
       <main>
-        <div className={`${styles.my_container2} container-xl pb-2 mx-auto`}>
+        <div className={`${styles.my_container} container-xl pb-2 mx-auto`}>
           <div className="row mx-0 justify-content-center">
             <NavBar />
           </div>
-          <div className="row mx-5 mb-2 pt-4 justify-content-center align-items-center ">
-            <div className={`col col-lg-11 col-xxl-10`}>
-              <div className="card p-0 mb-3 shadow-lg border-0">
+          <div className="row mx-5 mb-2 justify-content-center align-items-center ">
+            <div className={`col col-lg-11 col-xxl-9`}>
+              <div className="card mb-3 shadow-lg border-0">
                 <div
                   className={`${styles.bg_card} row g-0 d-flex flex-column flex-lg-row align-items-center bg-light rounded`}
                 >
@@ -32,7 +32,7 @@ export default function Apropos() {
                     />
                   </div>
                   <div className="col text-center">
-                    <div className="card-body">
+                    <div className="card-body p-2">
                       <div className="lh-lg">
                         &ldquo;De Frédérique, je sais certaines influences, les
                         chocs esthétiques, les strates accumulées de sa mémoire
@@ -46,7 +46,7 @@ export default function Apropos() {
                         avance confiante dans les processus plus lents du pincé,
                         du colombin ou de la plaque.
                       </div>
-                      <div className="fw-bold fs-5 my-3">
+                      <div className="fw-bold fs-5 my-2">
                         La main cherche, creuse, pince, modèle, s&lsquo;agite et
                         s&lsquo;exalte.
                       </div>
@@ -74,7 +74,7 @@ export default function Apropos() {
             </div>
             <div className="row mx-5 mb-3 justify-content-center align-items-center">
               <div className={`col text-center`}>
-                <div className="text-center mt-5 mt-xXl-2 mb-4">
+                <div className="text-center mt-3 mt-xXl-2 mb-4">
                   <button className="border shadow rounded-pill px-3 py-2">
                     <a className="text-reset" href="/galerie">
                       Découvrez mon univers{" "}

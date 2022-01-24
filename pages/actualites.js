@@ -14,12 +14,12 @@ export default function Actualites() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <div className={`${styles.my_container2} container-xl mx-auto`}>
+        <div className={`${styles.my_container} container-xl mx-auto`}>
           <div className="row mx-0 justify-content-center">
             <NavBar />
           </div>
-          <div className="row mx-5 mb-2 pt-4 justify-content-center align-items-center ">
-            <div className={`col col-lg-11 col-xxl-10`}>
+          <div className="row mx-5 mb-2 justify-content-center align-items-center ">
+            <div className={`col col-lg-11 col-xxl-9`}>
               <div className="card p-0 mb-3 shadow-lg border-0">
                 <div
                   className={`${styles.bg_card} row g-0 d-flex flex-column flex-lg-row align-items-center bg-light rounded`}
@@ -39,17 +39,6 @@ export default function Actualites() {
                       </div>
                     </div>
                   </div>
-                </div>
-              </div>
-            </div>
-            <div className="row mx-5 mb-3 justify-content-center align-items-center">
-              <div className={`col text-center`}>
-                <div className="text-center mt-4 mt-xXl-2 mb-4">
-                  <button className="px-3 py-2 mt-4 border shadow rounded-pill ">
-                    <a className="text-reset" href="/galerie">
-                      Découvrez mon univers{" "}
-                    </a>
-                  </button>
                 </div>
               </div>
             </div>

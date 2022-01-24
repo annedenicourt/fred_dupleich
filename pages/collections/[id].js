@@ -28,11 +28,11 @@ export default function Collection(params) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <div className={`${styles.my_container2} container-xl px-0 mx-auto`}>
+        <div className={`${styles.my_container} container-xl px-0 mx-auto`}>
           <div className="row mx-5 justify-content-center">
             <NavBar />
           </div>
-          <div className="row mx-0 pt-4 pb-5 justify-content-center">
+          <div className="row mx-0 pb-5 justify-content-center">
             <div className="col-10 d-none d-lg-block">
               <div className="mb-3">
                 <div className="fs-5 fw-bold">{filter2[0].name}</div>
