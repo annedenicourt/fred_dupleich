@@ -1,11 +1,21 @@
+import React, { useState } from "react";
 import styles from "../styles/Home.module.css";
-import Image from "next/image";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import Modal from "react-bootstrap/Modal";
 
-export default function Carousel(props) {
-  const gallery = props.images;
+export default function Carousel3({ name, id, images, image, onClick }) {
+  const [show, setShow] = useState(false);
+  const [selectedImage, setSelectedImage] = useState(null);
+
+  const handleClose = () => setShow(false);
+
+  function handleShow(item, index) {
+    setShow(true);
+    setSelectedImage(item.image);
+  }
+  const gallery = images;
   var settings = {
     dots: true,
     infinite: true,
@@ -19,6 +29,9 @@ export default function Carousel(props) {
       <Slider {...settings}>
         {gallery.map((item) => (
           <img
+            onClick={() => {
+              handleShow(item);
+            }}
             src={item.image}
             className={styles.my_slide2}
             alt="..."
@@ -26,6 +39,11 @@ export default function Carousel(props) {
           />
         ))}
       </Slider>
+      <Modal show={show} onHide={handleClose} centered>
+        <Modal.Body>
+          <img src={selectedImage} className="w-100" alt="" />
+        </Modal.Body>
+      </Modal>
     </>
   );
 }

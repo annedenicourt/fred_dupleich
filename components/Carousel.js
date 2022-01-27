@@ -12,16 +12,12 @@ export default function Carousel({ name, id, images, image, onClick }) {
   const [selectedImage, setSelectedImage] = useState(null);
 
   const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+  //const handleShow = () => setShow(true);
   let imageModal;
 
-  function handleShow2(item, index) {
-    console.log(item.image);
-    console.log(index);
+  function handleShow(item, index) {
     setShow(true);
     setSelectedImage(item.image);
-    //imageModal = item.image;
-    console.log(selectedImage);
   }
   const gallery = images;
   var settings = {
@@ -39,9 +35,8 @@ export default function Carousel({ name, id, images, image, onClick }) {
       <Slider {...settings}>
         {gallery.map((item, index) => (
           <img
-            //onClick={handleShow2(item, index)}
             onClick={() => {
-              handleShow2(item, index);
+              handleShow(item, index);
             }}
             src={item.image}
             className={styles.my_slide}
