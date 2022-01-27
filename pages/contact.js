@@ -55,7 +55,7 @@ export default function Contact() {
                 >
                   <div className="col">
                     <img
-                      src="/images/four.jpeg"
+                      src="/images/vue1.jpeg"
                       className="img-fluid rounded-start"
                       alt="..."
                     />

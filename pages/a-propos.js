@@ -33,29 +33,30 @@ export default function Apropos() {
                   </div>
                   <div className="col text-center">
                     <div className="card-body p-2">
-                      <div className="lh-lg">
+                      <div className="lh-lg px-2">
                         &ldquo;De Frédérique, je sais certaines influences, les
                         chocs esthétiques, les strates accumulées de sa mémoire
                         sensible. Son Oeil assuré guide ses mains affairées sur
                         la boule de terre, souvent de grès, parfois de
-                        porcelaine.
+                        porcelaine. Ici,
+                        <strong className="fs-5">
+                          le tour est remisé, le moule inexistant.
+                        </strong>{" "}
+                        Il n&lsquo;est pas question de gagner du temps.
+                        Frédérique avance confiante dans les processus plus
+                        lents du pincé, du colombin ou de la plaque.
                       </div>
-                      <div className="lh-lg">
-                        Ici, le tour est remisé, le moule inexistant. Il
-                        n&lsquo;est pas question de gagner du temps. Frédérique
-                        avance confiante dans les processus plus lents du pincé,
-                        du colombin ou de la plaque.
-                      </div>
-                      <div className="fw-bold fs-5 my-2">
+
+                      <div className="fw-bold fs-5 m-2">
                         La main cherche, creuse, pince, modèle, s&lsquo;agite et
                         s&lsquo;exalte.
                       </div>
-                      <div className="lh-lg">
+                      <div className="lh-lg px-2">
                         La forme ainsi révélée, il s&lsquo;agit parfois de lui
                         donner du grain, de la texture en grattant, scarifiant,
                         &ldquo;empreintant&ldquo; la surface.
                       </div>
-                      <div className="lh-lg">
+                      <div className="lh-lg px-2">
                         Ses propres émaux viennent envelopper chacune des
                         pièces. Comme une peau. Ses blancs
                         &ldquo;cailloux&ldquo;, ses gris &ldquo;célestes&ldquo;
@@ -66,7 +67,7 @@ export default function Apropos() {
                         à associer à toutes les autres. Ses pièces en terre
                         touchent.&ldquo;
                       </div>
-                      <div className="mt-4 text-end">Sandrine</div>
+                      <div className="mt-2 mx-4 text-end">Sandrine</div>
                     </div>
                   </div>
                 </div>
