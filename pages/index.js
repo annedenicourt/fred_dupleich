@@ -11,9 +11,7 @@ import CardGallery from "../components/CardGallery";
 
 export default function Home() {
   const categories1 = categories.slice(0, 3);
-  console.log(categories1);
   const categories2 = categories.slice(3);
-  console.log(categories2);
 
   return (
     <div className="">

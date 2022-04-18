@@ -39,6 +39,10 @@ main {
   border: none !important
 }
 
+.swal2-styled.swal2-confirm {
+  background-color: #cbbba0 !important;
+}
+
 @media screen and (min-width: 576px){
   .modal-dialog {
     max-width: 600px;
@@ -49,4 +53,3 @@ main {
     max-width: 750px;
   } 
 }
-
