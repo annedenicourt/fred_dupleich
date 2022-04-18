@@ -8,11 +8,11 @@ export default function CardGallery(props) {
   const image = images.map((item) => item.image);
 
   return (
-    <div className="position-relative mb-1 me-1">
+    <div className="card mb-1 me-1">
       <Link href={`/collections/${props.name}`}>
-        <div className={`${styles.my_card}`}>
+        <div className={`${styles.my_card} position-relative `}>
           <img
-            className={`${styles.my_card_image}`}
+            className={`${styles.my_card_image2} card-img-top`}
             src={props.image}
             alt="poterie en gres"
           />
@@ -22,7 +22,7 @@ export default function CardGallery(props) {
           >
             {props.name}
           </div>
-          <div className="mt-1 d-md-none">{props.name}</div>
+          <div className="mt-1 d-md-none text-center">{props.name}</div>
         </div>
       </Link>
     </div>

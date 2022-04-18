@@ -42,7 +42,7 @@ export default function NavBar() {
             id="navbarNav"
           >
             <ul className="navbar-nav text-center">
-              <li className="nav-item me-3">
+              {/* <li className="nav-item me-3">
                 <Link href="/galerie">
                   <a
                     className={
@@ -54,7 +54,7 @@ export default function NavBar() {
                     Galerie
                   </a>
                 </Link>
-              </li>
+              </li> */}
               <li className="nav-item me-3">
                 <Link href="/a-propos">
                   <a

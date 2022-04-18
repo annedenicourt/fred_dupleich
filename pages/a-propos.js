@@ -13,21 +13,23 @@ export default function Apropos() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
+      <main
+        className={`position-relative pb-2 d-flex flex-column justify-content-between`}
+      >
         <div className={`${styles.my_container} container-xl pb-2 mx-auto`}>
           <div className="row mx-0 justify-content-center">
             <NavBar />
           </div>
-          <div className="row mx-5 mb-2 justify-content-center align-items-center ">
+          <div className="row mx-0 mx-md-5 mb-2 justify-content-center align-items-center ">
             <div className={`col col-lg-11 col-xxl-9`}>
               <div className="card mb-3 shadow-lg border-0">
                 <div
                   className={`${styles.bg_card} row g-0 d-flex flex-column flex-lg-row align-items-center bg-light rounded`}
                 >
-                  <div className="col">
+                  <div className="col col-md-6 mt-md-4 mt-lg-0">
                     <img
                       src="/images/four.jpeg"
-                      className="img-fluid rounded-start"
+                      className="img-fluid"
                       alt="..."
                     />
                   </div>
@@ -77,7 +79,7 @@ export default function Apropos() {
               <div className={`col text-center`}>
                 <div className="text-center mt-3 mt-xXl-2 mb-4">
                   <button className="border shadow rounded-pill px-3 py-2">
-                    <a className="text-reset" href="/galerie">
+                    <a className="text-reset" href="/">
                       Découvrez mon univers{" "}
                     </a>
                   </button>

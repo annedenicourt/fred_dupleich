@@ -4,9 +4,17 @@ import Gallery from "react-photo-gallery";
 import styles from "../styles/Home.module.css";
 import NavBar from "../components/NavBar";
 import { photos } from "../data/dataList";
+import { categories } from "../data/dataList";
 import Footer from "../components/Footer";
+import "react-image-lightbox/style.css";
+import CardGallery from "../components/CardGallery";
 
 export default function Home() {
+  const categories1 = categories.slice(0, 3);
+  console.log(categories1);
+  const categories2 = categories.slice(3);
+  console.log(categories2);
+
   return (
     <div className="">
       <Head>
@@ -15,29 +23,47 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="">
+      <main className={`pb-2 d-flex flex-column justify-content-between`}>
         <div className={`${styles.my_container} container-xl mx-auto`}>
           <div className="row mx-5 justify-content-center ">
             <NavBar />
           </div>
-
-          <div className="row mx-0 justify-content-center">
-            <div className="col-11 col-md-10 pb-4">
-              <Gallery photos={photos} />
-            </div>
-            <div className="text-center mt-2 mb-5">
-              <button className="border rounded-pill p-2" type="button">
-                <a
-                  className="text-reset"
-                  target="_blank"
-                  href="https://www.instagram.com/frederique.dupleich/?hl=fr"
-                  rel="noreferrer"
-                >
-                  <i className="bi bi-instagram ms-2 me-3" />
-                  Plus de photos sur Instagram
-                </a>
-              </button>
-            </div>
+          <div className="row mx-0 mx-lg-5 d-flex flex-column flex-md-row justify-content-center">
+            {categories1.map((category) => (
+              <div className={`${category.width} p-0`} key={category.id}>
+                <CardGallery
+                  id={category.id}
+                  name={category.name}
+                  image={category.image}
+                  gallery={category.gallery}
+                />
+              </div>
+            ))}
+          </div>
+          <div className="row mx-0 mx-lg-5 pb-4 d-flex flex-column flex-md-row justify-content-center">
+            {categories2.map((category) => (
+              <div className={`${category.width} p-0`} key={category.id}>
+                <CardGallery
+                  id={category.id}
+                  name={category.name}
+                  image={category.image}
+                  gallery={category.gallery}
+                />
+              </div>
+            ))}
+          </div>
+          <div className="text-center mt-5 mb-5">
+            <button className="border rounded-pill p-2" type="button">
+              <a
+                className="text-reset"
+                target="_blank"
+                href="https://www.instagram.com/frederique.dupleich/?hl=fr"
+                rel="noreferrer"
+              >
+                <i className="bi bi-instagram ms-2 me-3" />
+                Plus de photos sur Instagram
+              </a>
+            </button>
           </div>
         </div>
         <Footer />
@@ -45,17 +71,3 @@ export default function Home() {
     </div>
   );
 }
-
-/* <div className="row mx-0 justify-content-center">
-<div className="col pb-5">
-    <div class="card">
-        <img src="/images/artichaut2.jpeg" className={`card-img-top`} alt="..."/>
-    </div>
-</div>
-<div className="col pb-5">
-<div class="card">
-        <img src="/images/artichaut2.jpeg" className={`card-img-top`} alt="..."/>
-    </div>
-</div>
-</div>
-*/

@@ -16,6 +16,9 @@ a {
   color: inherit;
   text-decoration: none;
 }
+main {
+    height: 100vh;
+}
 
 * {
   box-sizing: border-box;
@@ -33,4 +36,17 @@ a {
 }
 .card {
   background-color: transparent !important;
+  border: none !important
 }
+
+@media screen and (min-width: 576px){
+  .modal-dialog {
+    max-width: 600px;
+  } 
+}
+@media screen and (min-width: 992px){
+  .modal-dialog {
+    max-width: 750px;
+  } 
+}
+

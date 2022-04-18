@@ -36,6 +36,7 @@ export const categories = [
     id: "1",
     name: "Bols-Tasses",
     image: "/images/bols.jpeg",
+    width: "col col-md-4",
     gallery: [
       {
         image:
@@ -99,6 +100,7 @@ export const categories = [
     id: "2",
     name: "Saladiers-Plats",
     image: "/images/saladier1.jpeg",
+    width: "col col-md-4",
     gallery: [
       {
         image:
@@ -162,6 +164,7 @@ export const categories = [
     id: "3",
     name: "Cuillères",
     image: "/images/spoons2.jpg",
+    width: "col col-md-3 col-lg-2",
     gallery: [
       {
         image:
@@ -205,6 +208,7 @@ export const categories = [
     id: "4",
     name: "Pichets-Théières",
     image: "/images/pichets3.jpeg",
+    width: "col col-md-3 col-lg-2",
     gallery: [
       {
         image:
@@ -252,6 +256,7 @@ export const categories = [
     id: "5",
     name: "Vases",
     image: "/images/all_vases3.jpeg",
+    width: "col col-md-4",
     gallery: [
       {
         image:
@@ -291,6 +296,7 @@ export const categories = [
     id: "6",
     name: "Fruits-Végétaux",
     image: "/images/mix_vegetal4.jpeg",
+    width: "col col-md-4",
     gallery: [
       {
         image:

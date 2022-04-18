@@ -7,13 +7,12 @@ import Slider from "react-slick";
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
 
-export default function Carousel({ name, id, images, image, onClick }) {
+export default function Carousel({ name, id, images, image }) {
   const [show, setShow] = useState(false);
   const [selectedImage, setSelectedImage] = useState(null);
 
   const handleClose = () => setShow(false);
   //const handleShow = () => setShow(true);
-  let imageModal;
 
   function handleShow(item, index) {
     setShow(true);
@@ -40,7 +39,7 @@ export default function Carousel({ name, id, images, image, onClick }) {
             }}
             src={item.image}
             className={styles.my_slide}
-            alt="..."
+            alt={`photo poterie ${index}`}
             key={item.image}
           />
         ))}
