@@ -35,64 +35,47 @@ export const categories = [
   {
     id: "1",
     name: "Bols-Tasses",
-    image: "/images/bols.jpeg",
+    image: "/images/bols_tasses/bols.jpg",
     width: "col col-md-4",
     gallery: [
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/01_bols_tasses/bols.jpeg",
+        image: "/images/bols_tasses/bols.jpg",
       },
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/01_bols_tasses/bols2.jpeg",
+        image: "/images/bols_tasses/bols3.jpg",
       },
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/01_bols_tasses/bols3.jpeg",
+        image: "/images/bols_tasses/tasses_flower.jpg",
       },
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/01_bols_tasses/tasses_flower.jpeg",
+        image: "/images/bols_tasses/tasses.jpg",
       },
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/01_bols_tasses/tasses.jpeg",
+        image: "/images/bols_tasses/tasses2.jpg",
       },
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/01_bols_tasses/tasses2.jpeg",
+        image: "/images/bols_tasses/tasses3.jpg",
       },
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/01_bols_tasses/tasses3.jpeg",
+        image: "/images/bols_tasses/tasses4.jpg",
       },
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/01_bols_tasses/tasses4.jpeg",
+        image: "/images/bols_tasses/tasses5.jpg",
       },
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/01_bols_tasses/tasses5.jpeg",
+        image: "/images/bols_tasses/tasses6.jpg",
       },
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/01_bols_tasses/tasses6.jpeg",
+        image: "/images/bols_tasses/tasses7.jpg",
       },
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/01_bols_tasses/tasses7.jpeg",
+        image: "/images/bols_tasses/tasses8.jpg",
       },
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/01_bols_tasses/tasses8.jpeg",
+        image: "/images/bols_tasses/tasses9.jpg",
       },
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/01_bols_tasses/tasses9.jpeg",
-      },
-      {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/01_bols_tasses/tasses10.jpeg",
+        image: "/images/bols_tasses/tasses10.jpg",
       },
     ],
   },
@@ -167,88 +150,69 @@ export const categories = [
     width: "col col-md-3 col-lg-2",
     gallery: [
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/03_cuilleres/spoons.jpeg",
+        image: "/images/cuilleres/spoons.jpg",
       },
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/03_cuilleres/spoons2.jpeg",
+        image: "/images/cuilleres/spoons2.jpg",
       },
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/03_cuilleres/spoons3.jpeg",
+        image: "/images/cuilleres/spoons3.jpg",
       },
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/03_cuilleres/spoons4.jpeg",
+        image: "/images/cuilleres/spoons4.jpg",
       },
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/03_cuilleres/spoons5.jpeg",
+        image: "/images/cuilleres/spoons5.jpg",
       },
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/03_cuilleres/spoons6.jpeg",
+        image: "/images/cuilleres/spoons6.jpg",
       },
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/03_cuilleres/spoons7.jpeg",
+        image: "/images/cuilleres/spoons7.jpg",
       },
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/03_cuilleres/all_spoons.jpeg",
+        image: "/images/cuilleres/all_spoons.jpg",
       },
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/03_cuilleres/all_spoons2.jpeg",
+        image: "/images/cuilleres/all_spoons2.jpg",
       },
     ],
   },
   {
     id: "4",
     name: "Pichets-Théières",
-    image: "/images/pichets3.jpeg",
+    image: "/images/pichets_theieres/pichets3.jpg",
     width: "col col-md-3 col-lg-2",
     gallery: [
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/04_pichets_theieres/pichets1.jpeg",
+        image: "/images/pichets_theieres/pichets1.jpg",
       },
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/04_pichets_theieres/pichets2.jpeg",
+        image: "/images/pichets_theieres/pichets2.jpg",
       },
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/04_pichets_theieres/pichets3.jpeg",
+        image: "/images/pichets_theieres/pichets3.jpg",
       },
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/04_pichets_theieres/pichets4.jpeg",
+        image: "/images/pichets_theieres/pichets4.jpg",
       },
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/04_pichets_theieres/pichets5.jpeg",
+        image: "/images/pichets_theieres/pichets5.jpg",
       },
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/04_pichets_theieres/pichets6.jpeg",
+        image: "/images/pichets_theieres/pichets6.jpg",
       },
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/04_pichets_theieres/pichets7.jpeg",
+        image: "/images/pichets_theieres/pichets7.jpg",
       },
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/04_pichets_theieres/pichets8.jpeg",
+        image: "/images/pichets_theieres/pichets8.jpg",
       },
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/04_pichets_theieres/pichets9.jpeg",
+        image: "/images/pichets_theieres/pichets9.jpg",
       },
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/04_pichets_theieres/pichets10.jpeg",
+        image: "/images/pichets_theieres/pichets10.jpg",
       },
     ],
   },
