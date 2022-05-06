@@ -91,55 +91,55 @@ export const categories = [
       },
       {
         image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/05_plats_saladiers/51F7951A-0AC5-4E8B-87F6-88CC345666CD.jpeg",
+          "/images/plats_saladiers/51F7951A-0AC5-4E8B-87F6-88CC345666CD.jpg",
       },
       {
         image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/05_plats_saladiers/883017ED-5F3E-42B1-BE85-F048A0D84BDD.jpeg",
+          "/images/plats_saladiers/883017ED-5F3E-42B1-BE85-F048A0D84BDD.jpg",
       },
       {
         image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/05_plats_saladiers/0CAAB207-ED36-4913-8E1F-D3207B697B8D.jpeg",
+          "/images/plats_saladiers/0CAAB207-ED36-4913-8E1F-D3207B697B8D.jpg",
       },
       {
         image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/05_plats_saladiers/18ECAF1D-F8C1-4676-829F-F8256D1E5FF3.jpeg",
+          "/images/plats_saladiers/18ECAF1D-F8C1-4676-829F-F8256D1E5FF3.jpg",
       },
       {
         image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/05_plats_saladiers/1AB7E13A-52C2-4471-B67D-346BE2FFC5ED.jpeg",
+          "/images/plats_saladiers/1AB7E13A-52C2-4471-B67D-346BE2FFC5ED.jpg",
       },
       {
         image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/05_plats_saladiers/1D72F0D3-06D2-46FF-9C2F-C03F13C6B4AF.jpeg",
+          "/images/plats_saladiers/1D72F0D3-06D2-46FF-9C2F-C03F13C6B4AF.jpg",
       },
       {
         image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/05_plats_saladiers/21A33246-0F5A-4ADD-B247-84DF003F2E8B.jpeg",
+          "/images/plats_saladiers/21A33246-0F5A-4ADD-B247-84DF003F2E8B.jpg",
       },
       {
         image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/05_plats_saladiers/21BE45FE-A8F9-44F7-B8DA-B6E6C5760BAA.jpeg",
+          "/images/plats_saladiers/21BE45FE-A8F9-44F7-B8DA-B6E6C5760BAA.jpg",
       },
       {
         image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/05_plats_saladiers/38BD3AFA-6B2B-4FC4-83CA-729CFDF3CBC5.jpeg",
+          "/images/plats_saladiers/38BD3AFA-6B2B-4FC4-83CA-729CFDF3CBC5.jpg",
       },
       {
         image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/05_plats_saladiers/3A3809A6-0866-4818-B65F-B95159FE26B6.jpeg",
+          "/images/plats_saladiers/3A3809A6-0866-4818-B65F-B95159FE26B6.jpg",
       },
       {
         image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/05_plats_saladiers/3C29AA89-8952-4432-8036-0AFDCA37284B.jpeg",
+          "/images/plats_saladiers/3C29AA89-8952-4432-8036-0AFDCA37284B.jpg",
       },
       {
         image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/05_plats_saladiers/3D8DBC85-167C-45F6-9233-3C69BA3B59F1.jpeg",
+          "/images/plats_saladiers/3D8DBC85-167C-45F6-9233-3C69BA3B59F1.jpg",
       },
       {
         image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/05_plats_saladiers/478DA3CA-39E3-408E-BBFE-0CB1613D56A0.jpeg",
+          "/images/plats_saladiers/478DA3CA-39E3-408E-BBFE-0CB1613D56A0.jpg",
       },
     ],
   },
@@ -219,136 +219,106 @@ export const categories = [
   {
     id: "5",
     name: "Vases",
-    image: "/images/all_vases3.jpeg",
+    image: "/images/vases/all_vases3.jpg",
     width: "col col-md-4",
     gallery: [
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/07_vases/all_vases.jpeg",
+        image: "/images/vases/all_vases.jpg",
       },
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/07_vases/all_vases2.jpeg",
+        image: "/images/vases/all_vases2.jpg",
       },
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/07_vases/all_vases3.jpeg",
+        image: "/images/vases/all_vases3.jpg",
       },
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/07_vases/2300C23E-B89C-44D5-9549-A1681E344D9D.jpeg",
+        image: "/images/vases/2300C23E-B89C-44D5-9549-A1681E344D9D.jpg",
       },
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/07_vases/5D616A4A-2529-481F-9BA9-46B6BF3288A3.jpeg",
+        image: "/images/vases/5D616A4A-2529-481F-9BA9-46B6BF3288A3.jpg",
       },
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/07_vases/308B4638-CBE3-4B67-A2E8-2FEB0A0B5C73.jpeg",
+        image: "/images/vases/308B4638-CBE3-4B67-A2E8-2FEB0A0B5C73.jpg",
       },
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/07_vases/D2D21F5D-C045-4396-B226-09F2920F0A00.jpeg",
+        image: "/images/vases/D2D21F5D-C045-4396-B226-09F2920F0A00.jpg",
       },
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/07_vases/F3650E1E-77A8-41F4-AFD8-E7A6B1B03840.jpeg",
+        image: "/images/vases/F3650E1E-77A8-41F4-AFD8-E7A6B1B03840.jpg",
       },
     ],
   },
   {
     id: "6",
     name: "Fruits-Végétaux",
-    image: "/images/mix_vegetal4.jpeg",
+    image: "/images/vegetaux/mix_vegetal4.jpg",
     width: "col col-md-4",
     gallery: [
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/08_vegetaux/artichaut.jpeg",
+        image: "/images/vegetaux/artichaut.jpg",
       },
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/08_vegetaux/artichaut2.jpeg",
+        image: "/images/vegetaux/artichaut2.jpg",
       },
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/08_vegetaux/coings.jpeg",
+        image: "/images/vegetaux/coings.jpg",
       },
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/08_vegetaux/figues.jpeg",
+        image: "/images/vegetaux/figues.jpg",
       },
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/08_vegetaux/figues2.jpeg",
+        image: "/images/vegetaux/figues2.jpg",
       },
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/08_vegetaux/figues3.jpeg",
+        image: "/images/vegetaux/figues3.jpg",
       },
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/08_vegetaux/figues4.jpeg",
+        image: "/images/vegetaux/figues4.jpg",
       },
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/08_vegetaux/figues5.jpeg",
+        image: "/images/vegetaux/figues5.jpg",
       },
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/08_vegetaux/figues6.jpeg",
+        image: "/images/vegetaux/figues6.jpg",
       },
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/08_vegetaux/figues7.jpeg",
+        image: "/images/vegetaux/figues7.jpg",
       },
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/08_vegetaux/figues8.jpeg",
+        image: "/images/vegetaux/figues8.jpg",
       },
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/08_vegetaux/mix_vegetal.jpeg",
+        image: "/images/vegetaux/mix_vegetal.jpg",
       },
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/08_vegetaux/mix_vegetal2.jpeg",
+        image: "/images/vegetaux/mix_vegetal2.jpg",
       },
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/08_vegetaux/mix_vegetal3.jpeg",
+        image: "/images/vegetaux/mix_vegetal3.jpg",
       },
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/08_vegetaux/mix_vegetal4.jpeg",
+        image: "/images/vegetaux/mix_vegetal4.jpg",
       },
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/08_vegetaux/mix_vegetal5.jpeg",
+        image: "/images/vegetaux/mix_vegetal5.jpg",
       },
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/08_vegetaux/mix_vegetal6.jpeg",
+        image: "/images/vegetaux/mix_vegetal6.jpg",
       },
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/08_vegetaux/mix_vegetal7.jpeg",
+        image: "/images/vegetaux/mix_vegetal7.jpg",
       },
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/08_vegetaux/mix_vegetal8.jpeg",
+        image: "/images/vegetaux/mix_vegetal8.jpg",
       },
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/08_vegetaux/wood.jpeg",
+        image: "/images/vegetaux/wood.jpg",
       },
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/08_vegetaux/wood2.jpeg",
+        image: "/images/vegetaux/wood2.jpg",
       },
       {
-        image:
-          "https://frederiquedupleich.s3.eu-west-3.amazonaws.com/08_vegetaux/wood3.jpeg",
+        image: "/images/vegetaux/wood3.jpg",
       },
     ],
   },

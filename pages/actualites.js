@@ -26,7 +26,7 @@ export default function Actualites() {
                 >
                   <div className="col col-md-6 mt-md-4 mt-lg-0">
                     <img
-                      src="/images/vue2.jpeg"
+                      src="/images/vue2.jpg"
                       className="img-fluid rounded-start"
                       alt="..."
                     />

@@ -27,14 +27,14 @@ export default function Atelier() {
                 >
                   <div className="col col-md-6 mt-md-4 mt-lg-0">
                     <img
-                      src="/images/mains2.jpeg"
+                      src="/images/mains2.jpg"
                       className="img-fluid rounded-start"
                       alt="..."
                     />
                   </div>
                   <div className="col text-center">
                     <div className="card-body">
-                      <h2 className=" mb-5 mb-lg-5 fs-1">Stages</h2>
+                      <h2 className=" mb-5 mb-lg-4 fs-1">Stages</h2>
                       <h5 className="card-title fw-bold mb-3">
                         Décors de Noel, pampilles, boules, guirlandes etc… en
                         porcelaine papier
