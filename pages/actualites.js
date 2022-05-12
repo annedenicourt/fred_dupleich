@@ -26,9 +26,9 @@ export default function Actualites() {
             <div className={`col col-lg-11 col-xxl-9`}>
               <div className="card p-0 mb-3 shadow-lg border-0">
                 <div
-                  className={`${styles.bg_card} row g-0 px-2 py-4 d-flex flex-column flex-lg-row align-items-center bg-light rounded`}
+                  className={`${styles.bg_card} row g-0 p-4 d-flex flex-column flex-lg-row align-items-center bg-light rounded`}
                 >
-                  <div className={`col col-md-6 ps-4 mt-md-4 mt-lg-0`}>
+                  <div className={`col col-md-6 mt-md-4 mt-lg-0`}>
                     <img
                       src="/images/vue2.jpg"
                       className="img-fluid rounded-start"
@@ -44,7 +44,11 @@ export default function Actualites() {
                       );
                     })}
                   </div>
-                  <div className="fw-bold fs-5 mt-5 text-center">
+                  <div className="d-md-none fw-bold fs-6 mt-5 text-center">
+                    Retrouvez aussi mes créations à la Cité Potière <br />6 rue
+                    Saint Louis à Carcassonne
+                  </div>
+                  <div className="d-none d-md-block fw-bold fs-5 mt-5 text-center">
                     Retrouvez aussi mes créations à la Cité Potière <br />6 rue
                     Saint Louis à Carcassonne
                   </div>
