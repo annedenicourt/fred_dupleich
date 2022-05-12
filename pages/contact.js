@@ -51,7 +51,7 @@ export default function Contact() {
             <div className={`col col-lg-10 col-xxl-9`}>
               <div className="card p-0 mb-3 shadow-lg border-0">
                 <div
-                  className={`${styles.bg_card} row g-0 d-flex flex-column flex-lg-row align-items-center bg-light rounded`}
+                  className={`${styles.bg_card} row g-0 p-4 d-flex flex-column flex-lg-row align-items-center bg-light rounded`}
                 >
                   <div className="col col-md-6 mt-md-4 mt-lg-0">
                     <img
@@ -72,9 +72,9 @@ export default function Contact() {
                           frederique.dupleich@gmail.com
                         </div>
                       </div>
-                      <h4 className="mb-4 text-center">
+                      <h5 className="mb-4 text-center">
                         Laissez-moi un message
-                      </h4>
+                      </h5>
                       <form
                         className="text-center rounded mx-4 "
                         id="contact_form"

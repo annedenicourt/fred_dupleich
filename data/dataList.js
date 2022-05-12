@@ -1,4 +1,4 @@
-export const photos = [
+/* export const photos = [
   {
     src: "/images/artichaut2.jpeg",
     width: 4,
@@ -29,7 +29,7 @@ export const photos = [
     width: 4,
     height: 3,
   },
-];
+]; */
 
 export const categories = [
   {
@@ -180,7 +180,7 @@ export const categories = [
   },
   {
     id: "4",
-    name: "Pichets-Théières",
+    name: "Pichets",
     image: "/images/pichets_theieres/pichets3.jpg",
     width: "col col-md-3 col-lg-2",
     gallery: [
@@ -321,5 +321,40 @@ export const categories = [
         image: "/images/vegetaux/wood3.jpg",
       },
     ],
+  },
+];
+
+export const actuality = [
+  {
+    id: "1",
+    title: "Marché de printemps des créateurs",
+    infos: "Samedi 14 mai de 10h à 20h",
+    infos2: "Dimanche 15 mai de 10h à 18h",
+    infos3: "",
+    adresse: "Allées François Verdier 31000 TOULOUSE",
+  },
+  {
+    id: "2",
+    title: "Marché Céramique Contemporaine",
+    infos: "Vendredi 4 juin de 10h à 20h",
+    infos2: "Samedi 5 juin de 10h à 18h",
+    infos3: "Dimanche 6 juin de 10h à 18h",
+    adresse: "81500 GIROUSSENS",
+  },
+  {
+    id: "3",
+    title: "Les Tupiniers du Vieux-Lyon",
+    infos: "Samedi 11 septembre de 9h à 19h",
+    infos2: "Dimanche 12 septembre de 9h à 19h",
+    infos3: "",
+    adresse: "Place Saint-Jean 69005 LYON",
+  },
+  {
+    id: "4",
+    title: "Marché des potiers",
+    infos: "Samedi 8 octobre de 9h à 19h",
+    infos2: "Dimanche 9 octobre de 9h à 19h",
+    infos3: "",
+    adresse: "Place de la Halle 82340 AUVILLAR",
   },
 ];

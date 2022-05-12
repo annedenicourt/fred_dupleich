@@ -10,7 +10,6 @@
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   height: 100vh;
-
 }
 
 @keyframes fadeInAnimation {
@@ -81,6 +80,14 @@
 }
 .my_bg {
   background-color: rgba(255, 255, 255, 0.5);
+  display: none;
+}
+.my_bg2 {
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 0.9em;
+}
+.my_card:hover .my_bg {
+  display: block;
 }
 
 @media screen and (min-width: 992px) {

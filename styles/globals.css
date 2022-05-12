@@ -17,7 +17,7 @@ a {
   text-decoration: none;
 }
 main {
-    height: 100vh;
+  height: 100vh;
 }
 
 * {
@@ -36,17 +36,24 @@ main {
 }
 .card {
   background-color: transparent !important;
-  border: none !important
+  border: none !important;
+}
+.card-title {
+  font-weight: 900;
+}
+.card-text {
+  font-size: 1.1em;
+  font-weight: bolder;
 }
 
 .swal2-styled.swal2-confirm {
   background-color: #cbbba0 !important;
 }
 
-@media screen and (min-width: 576px){
+@media screen and (min-width: 576px) {
   .modal-dialog {
     max-width: 600px;
-  } 
+  }
 }
 /* @media screen and (min-width: 992px){
   .modal-dialog {

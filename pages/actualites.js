@@ -4,8 +4,12 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
+import MyCardBody from "../components/MyCardBody";
+import { actuality } from "../data/dataList";
 
 export default function Actualites() {
+  console.log(actuality);
+
   return (
     <div className="">
       <Head>
@@ -22,22 +26,27 @@ export default function Actualites() {
             <div className={`col col-lg-11 col-xxl-9`}>
               <div className="card p-0 mb-3 shadow-lg border-0">
                 <div
-                  className={`${styles.bg_card} row g-0 d-flex flex-column flex-lg-row align-items-center bg-light rounded`}
+                  className={`${styles.bg_card} row g-0 px-2 py-4 d-flex flex-column flex-lg-row align-items-center bg-light rounded`}
                 >
-                  <div className="col col-md-6 mt-md-4 mt-lg-0">
+                  <div className={`col col-md-6 ps-4 mt-md-4 mt-lg-0`}>
                     <img
                       src="/images/vue2.jpg"
                       className="img-fluid rounded-start"
-                      alt="..."
+                      alt="photo poterie"
                     />
                   </div>
                   <div className="col text-center">
-                    <div className="card-body">
-                      <div className="fw-bold fs-5 my-3">
-                        Retrouvez-moi sur les marchés de potiers <br />
-                        et à la Cité Potière à Carcassonne
-                      </div>
-                    </div>
+                    {actuality.map((item) => {
+                      return (
+                        <div key={item.id} className="card-body">
+                          <MyCardBody item={item} />
+                        </div>
+                      );
+                    })}
+                  </div>
+                  <div className="fw-bold fs-5 mt-5 text-center">
+                    Retrouvez aussi mes créations à la Cité Potière <br />6 rue
+                    Saint Louis à Carcassonne
                   </div>
                 </div>
               </div>

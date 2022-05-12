@@ -3,7 +3,6 @@ import Head from "next/head";
 import Gallery from "react-photo-gallery";
 import styles from "../styles/Home.module.css";
 import NavBar from "../components/NavBar";
-import { photos } from "../data/dataList";
 import { categories } from "../data/dataList";
 import Footer from "../components/Footer";
 import "react-image-lightbox/style.css";

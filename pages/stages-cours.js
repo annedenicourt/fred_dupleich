@@ -23,7 +23,7 @@ export default function Atelier() {
             <div className={`col col-lg-11 col-xxl-9`}>
               <div className="card p-0 mb-3 shadow-lg border-0">
                 <div
-                  className={`${styles.bg_card} row g-0 d-flex flex-column flex-lg-row align-items-center border-0 rounded`}
+                  className={`${styles.bg_card} row g-0 p-4 d-flex flex-column flex-lg-row align-items-center border-0 rounded`}
                 >
                   <div className="col col-md-6 mt-md-4 mt-lg-0">
                     <img

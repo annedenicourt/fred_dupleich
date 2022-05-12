@@ -18,7 +18,12 @@ export default function CardGallery(props) {
           />
           <i className="bi bi-plus position-absolute top-50 start-50 translate-middle rounded-pill" />
           <div
-            className={`${styles.my_bg} mt-2 ps-2 pe-2 d-none d-md-block position-absolute bottom-0 start-50 translate-middle`}
+            className={`${styles.my_bg} mt-2 ps-2 pe-2 position-absolute bottom-0 start-50 translate-middle`}
+          >
+            {props.name}
+          </div>
+          <div
+            className={`${styles.my_bg2} d-none d-md-block d-lg-none p-1 mt-2 position-absolute bottom-0 start-50 translate-middle`}
           >
             {props.name}
           </div>
