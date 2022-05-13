@@ -8,8 +8,6 @@ import MyCardBody from "../components/MyCardBody";
 import { actuality } from "../data/dataList";
 
 export default function Actualites() {
-  console.log(actuality);
-
   return (
     <div className="">
       <Head>

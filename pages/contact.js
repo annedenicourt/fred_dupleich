@@ -57,7 +57,7 @@ export default function Contact() {
                     <img
                       src="/images/vue1.jpg"
                       className="img-fluid rounded-start"
-                      alt="..."
+                      alt="poterie en grès"
                     />
                   </div>
                   <div className="col text-center">

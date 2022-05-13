@@ -9,11 +9,11 @@ function MyApp({ Component, pageProps }) {
         <meta charSet="utf-8" />
         <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta property="og:url" content="https://frederiquedupleich.fr/" />
+        <meta property="og:url" content="https://frederiquedupleich.com/" />
         <meta property="og:title" content="Frédérique Dupleich Céramiste" />
         <meta
           property="og:image"
-          content="https://annedenicourt.com/images/laptop.png"
+          content="https://frederiquedupleich.com/images/tasses.jpg"
         />
         <meta
           property="og:description"
