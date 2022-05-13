@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps }) {
         <meta property="og:title" content="Frédérique Dupleich Céramiste" />
         <meta
           property="og:image"
-          content="https://frederiquedupleich.com/images/tasses.jpg"
+          content="https://frederiquedupleich.com/images/bols_tasses/tasses.jpg"
         />
         <meta
           property="og:description"
