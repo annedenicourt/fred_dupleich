@@ -52,7 +52,7 @@ export default function Home() {
           <div className="text-center mt-5 mb-5">
             <button className="border rounded-pill p-2" type="button">
               <a
-                className="text-reset"
+                className=""
                 target="_blank"
                 href="https://www.instagram.com/frederique.dupleich/?hl=fr"
                 rel="noreferrer"

@@ -358,3 +358,25 @@ export const actuality = [
     adresse: "Place de la Halle 82340 AUVILLAR",
   },
 ];
+
+export const courses = [
+  {
+    id: "1",
+    title:
+      "Décors de Noel, pampilles, boules, guirlandes etc… en porcelaine papier",
+    infos: "Le samedi 13 novembre 2021 de 14h à 17h",
+    price: "75",
+  },
+  {
+    id: "2",
+    title: "Fruits/légumes/végétaux à réaliser en grès de différentes couleurs",
+    infos: "",
+    price: "",
+  },
+  {
+    id: "3",
+    title: "Découverte et élaboration d'engobes",
+    infos: "",
+    price: "",
+  },
+];

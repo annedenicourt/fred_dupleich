@@ -4,6 +4,8 @@ import styles from "../styles/Home.module.css";
 import NavBar from "../components/NavBar";
 import Card from "react-bootstrap/Card";
 import Footer from "../components/Footer";
+import Course from "../components/Course";
+import { courses } from "../data/dataList";
 
 export default function Atelier() {
   return (
@@ -29,35 +31,16 @@ export default function Atelier() {
                     <img
                       src="/images/mains2.jpg"
                       className="img-fluid rounded-start"
-                      alt="..."
+                      alt="photo cours poterie"
                     />
                   </div>
                   <div className="col text-center">
                     <div className="card-body">
                       <h2 className=" mb-5 mb-lg-4 fs-1">Stages</h2>
-                      <h5 className="card-title fw-bold mb-3">
-                        Décors de Noel, pampilles, boules, guirlandes etc… en
-                        porcelaine papier
-                      </h5>
-                      <div className="">
-                        Quand ? Le samedi 13 novembre 2021 de 14h à 17h
-                      </div>
-                      <div className="mb-3 border-bottom pb-4">Prix ? 75€</div>
-                      <h5 className="card-title fw-bold mb-3">
-                        Fruits/légumes/végétaux à réaliser en grès de
-                        différentes couleurs
-                      </h5>
-                      <div className="">Quand ? Date à venir</div>
-                      <div className="mb-3 border-bottom pb-4">
-                        Prix ? À définir
-                      </div>
-                      <h5 className="card-title fw-bold mb-3">
-                        Découverte et élaboration d'engobes
-                      </h5>
-                      <div className="">Quand ? Date à venir</div>
-                      <div className="mb-3 border-bottom pb-4">
-                        Prix ? À définir
-                      </div>
+                      {courses.map((item, index) => (
+                        <Course cours={item} key={index} />
+                      ))}
+
                       <div className="text-muted text-center mt-2">
                         Le prix des stages comprend la terre, l’émail, le
                         matériel et les cuissons
@@ -76,7 +59,7 @@ export default function Atelier() {
               </div>
               <div className="text-center mt-4 mt-xXl-2 mb-4">
                 <button className="border shadow rounded-pill px-3 py-2">
-                  <a className="text-reset" href="/contact">
+                  <a className="" href="/contact">
                     Renseignements / Inscriptions
                   </a>
                 </button>
@@ -89,30 +72,3 @@ export default function Atelier() {
     </div>
   );
 }
-
-/*<div className="row mx-5 mb-4 bg-light d-flex flex-column flex-lg-row justify-content-center align-items-center">
-                    <div className={`col-6 col-xl-5 py-2 p-lg-0`}>
-                        <Image className=""
-                            src="/images/mains2.jpeg"
-                            alt=""
-                            width={1696}
-                            height={2082} 
-                            layout="responsive"
-                            priority='true'
-                        />               
-                    </div>
-                    <div className={`col-6 col-xl-5 p-0 text-center`}>
-                        <div className={`px-0 px-lg-5 py-2 mb-4 `}>
-                            <h2 className=" mb-5 mb-lg-5 fs-1">Stages</h2>
-                            <div className="fs-4 fw-bold mb-3">Décors de Noel, pampilles, boules, guirlandes etc… en porcelaine papier</div>
-                            <div className="">Quand ? Le samedi 13 novembre de 14h à 17h</div>
-                            <div className="mb-3 border-bottom pb-4">Prix ? 75€</div> 
-
-                            <div className="fs-4 fw-bold mt-3 mb-3">Fruits/légumes/végétaux à réaliser en grès de différentes couleurs</div>
-                            <div className="">Quand ? Date à venir</div>
-                            <div className="mb-3 border-bottom pb-4">Prix ? À définir</div>
-                            <div className="text-muted text-center mt-2">Les prix des stages comprennent les terres, l’émail, le matériel et les cuissons (1 à 2 cuissons)</div>
-                        </div>
-                    </div>
-                </div>
-*/

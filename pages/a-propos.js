@@ -30,7 +30,7 @@ export default function Apropos() {
                     <img
                       src="/images/four.jpg"
                       className="img-fluid"
-                      alt="..."
+                      alt="four céramique"
                     />
                   </div>
                   <div className="col text-center">
@@ -79,7 +79,7 @@ export default function Apropos() {
               <div className={`col text-center`}>
                 <div className="text-center mt-3 mt-xXl-2 mb-4">
                   <button className="border shadow rounded-pill px-3 py-2">
-                    <a className="text-reset" href="/">
+                    <a className="" href="/">
                       Découvrez mon univers{" "}
                     </a>
                   </button>

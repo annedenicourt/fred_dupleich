@@ -64,7 +64,7 @@ export default function Collection(params) {
             </div>
             <div className="text-center mt-5">
               <button className="border rounded-pill p-2" type="button">
-                <a className="text-reset" href="/">
+                <a className="" href="/">
                   <i className="bi bi-arrow-left-short me-2" />
                   Revenir à la galerie
                 </a>
