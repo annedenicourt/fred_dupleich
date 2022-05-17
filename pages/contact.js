@@ -124,14 +124,14 @@ export default function Contact() {
                           <i className="bi bi-envelope-fill" /> ENVOYER
                         </button>
                       </form>
-                      <form action="?" method="POST">
+                      {/* <form action="?" method="POST">
                         <div
                           class="g-recaptcha"
                           data-sitekey="6Lf1a_QfAAAAALjmUjH-hkarzz0vxxmZ6iQxYibw"
                         ></div>
                         <br />
                         <input type="submit" value="Submit" />
-                      </form>
+                      </form> */}
                     </div>
                   </div>
                 </div>
