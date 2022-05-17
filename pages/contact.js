@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import Head from "next/head";
 import Image from "next/image";
 import emailjs from "emailjs-com";
@@ -13,10 +13,10 @@ export default function Contact() {
 
     emailjs
       .sendForm(
-        "service_if9q8wq",
+        "service_du0nfnd",
         "contact_form",
         e.target,
-        "user_BwL24v0D7KuEvBfg9MBkR"
+        "tGb-Y9swpak_7uigt"
       )
       .then(
         (result) => {
@@ -119,9 +119,18 @@ export default function Contact() {
                         <button
                           className="btn btn-outline-dark mt-3 mb-3 fw-bold"
                           type="submit"
+                          value="Send"
                         >
                           <i className="bi bi-envelope-fill" /> ENVOYER
                         </button>
+                      </form>
+                      <form action="?" method="POST">
+                        <div
+                          class="g-recaptcha"
+                          data-sitekey="6Lf1a_QfAAAAALjmUjH-hkarzz0vxxmZ6iQxYibw"
+                        ></div>
+                        <br />
+                        <input type="submit" value="Submit" />
                       </form>
                     </div>
                   </div>

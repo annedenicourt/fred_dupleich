@@ -35,7 +35,7 @@ function MyApp({ Component, pageProps }) {
         <link
           rel="preconnect"
           href="https://fonts.gstatic.com"
-          crossorigin
+          crossOrigin="anonymous"
         ></link>
         <link
           href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Josefin+Slab:wght@300&family=Noto+Sans+Mono:wght@100&family=Nunito:wght@200&display=swap"
@@ -49,7 +49,12 @@ function MyApp({ Component, pageProps }) {
         <script
           src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
           integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-          crossorigin="anonymous"
+          crossOrigin="anonymous"
+        ></script>
+        <script
+          src="https://www.google.com/recaptcha/api.js"
+          async
+          defer
         ></script>
       </Head>
 
