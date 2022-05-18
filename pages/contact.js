@@ -119,8 +119,8 @@ export default function Contact() {
                           />
                         </div>
                         <div
-                          class="g-recaptcha"
-                          data-sitekey="6Lf1a_QfAAAAALjmUjH-hkarzz0vxxmZ6iQxYibw"
+                          className="g-recaptcha d-flex justify-content-center"
+                          data-sitekey="6LcuH_sfAAAAAAOSk3mPPsiNfjiALOe5NivOzhCw"
                         ></div>
                         <button
                           className="btn btn-outline-dark mt-3 mb-3 fw-bold"
