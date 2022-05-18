@@ -27,6 +27,7 @@ export default function Contact() {
             text: "Votre message a bien été envoyé",
           });
           document.getElementById("contact_form").reset();
+          window.grecaptcha.reset();
         },
         (error) => {
           console.log(error.text);
