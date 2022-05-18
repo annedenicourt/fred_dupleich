@@ -84,8 +84,8 @@ export default function Contact() {
                         className="text-center rounded mx-4 "
                         id="contact_form"
                         onSubmit={sendEmail}
-                        action="?"
-                        method="POST"
+                        //action="?"
+                        //method="POST"
                       >
                         <input type="hidden" name="contact_number" />
                         <div className="">
@@ -119,10 +119,10 @@ export default function Contact() {
                             required
                           />
                         </div>
-                        <div
+                        {/*  <div
                           className="g-recaptcha d-flex justify-content-center"
                           data-sitekey="6LcuH_sfAAAAAAOSk3mPPsiNfjiALOe5NivOzhCw"
-                        ></div>
+                        ></div> */}
                         <button
                           className="btn btn-outline-dark mt-3 mb-3 fw-bold"
                           type="submit"
