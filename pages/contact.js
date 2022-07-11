@@ -68,14 +68,6 @@ export default function Contact() {
                           <i className="me-3 bi bi-telephone" />
                           07 69 29 63 82
                         </div>
-                        <div className="d-none d-md-block fs-5">
-                          <i className="me-3 bi bi-envelope" />
-                          frederique.dupleich@gmail.com
-                        </div>
-                        <div className="d-md-none fs-6">
-                          <i className="me-3 bi bi-envelope" />
-                          frederique.dupleich@gmail.com
-                        </div>
                       </div>
                       <h5 className="mb-4 text-center">
                         Laissez-moi un message

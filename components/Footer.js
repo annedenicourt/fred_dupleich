@@ -10,7 +10,7 @@ export default function Footer() {
       <div className={`${styles.my_footer} row mx-0 pb-1 align-items-center`}>
         <div className="col ">
           <div className="text-center fw-bold">
-            Tous droits réservés ® Copyright Frédérique Dupleich Céramiste{" "}
+            Tous droits réservés ® Copyright Frédérique Dupleich Céramique{" "}
             {currentYear}
           </div>
         </div>

@@ -37,14 +37,19 @@ export default function Atelier() {
                   <div className="col text-center">
                     <div className="card-body">
                       <h2 className=" mb-5 mb-lg-4 fs-1">Stages</h2>
-                      {courses.map((item, index) => (
-                        <Course cours={item} key={index} />
-                      ))}
-
-                      <div className="text-muted text-center mt-2">
-                        Le prix des stages comprend la terre, l’émail, le
-                        matériel et les cuissons
-                      </div>
+                      {courses.length > 0 ? (
+                        courses.map((item, index) => (
+                          <Course cours={item} key={index} />
+                        ))
+                      ) : (
+                        <div className="my-5 fs-4">Informations à venir</div>
+                      )}
+                      {courses.length > 0 && (
+                        <div className="text-muted text-center mt-2">
+                          Le prix des stages comprend la terre, l’émail, le
+                          matériel et les cuissons
+                        </div>
+                      )}
                     </div>
                   </div>
                 </div>
