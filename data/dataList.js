@@ -187,6 +187,15 @@ export const categories = [
       {
         image: "/images/plats_saladiers/plats34.jpg",
       },
+      {
+        image: "/images/plats_saladiers/plats35.jpg",
+      },
+      {
+        image: "/images/plats_saladiers/plats36.jpg",
+      },
+      {
+        image: "/images/plats_saladiers/plats37.jpg",
+      },
     ],
   },
   {
@@ -219,9 +228,9 @@ export const categories = [
       {
         image: "/images/cuilleres/spoons10.jpg",
       },
-      {
+      /* {
         image: "/images/cuilleres/spoons11.jpg",
-      },
+      }, */
       {
         image: "/images/cuilleres/spoons12.jpg",
       },
@@ -283,9 +292,9 @@ export const categories = [
       {
         image: "/images/vases/vases23.jpg",
       },
-      {
+      /* {
         image: "/images/vases/vases24.jpg",
-      },
+      }, */
       {
         image: "/images/vases/vases25.jpg",
       },
@@ -295,23 +304,14 @@ export const categories = [
       {
         image: "/images/vases/vases27.jpg",
       },
-      {
+      /* {
         image: "/images/vases/vases28.jpg",
-      },
+      }, */
       {
         image: "/images/vases/vases29.jpg",
       },
       {
         image: "/images/vases/vases30.jpg",
-      },
-      {
-        image: "/images/vases/vases31.jpg",
-      },
-      {
-        image: "/images/vases/vases32.jpg",
-      },
-      {
-        image: "/images/vases/vases33.jpg",
       },
       {
         image: "/images/vases/vases34.jpg",
