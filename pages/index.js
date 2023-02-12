@@ -22,7 +22,7 @@ export default function Home() {
 
       <main className={`pb-2 d-flex flex-column justify-content-between`}>
         <div className={`${styles.my_container} container-xl mx-auto`}>
-          <div className="row mx-5 justify-content-center ">
+          <div className="row mx-md-5 justify-content-center ">
             <NavBar />
           </div>
           <div className="row mx-0 mx-lg-5 d-flex flex-column flex-md-row justify-content-center">
