@@ -14,7 +14,7 @@ export default function Collection(params) {
   const { id } = router.query;
 
   const filter2 = categories.filter((category) => category.name === id);
-  console.log(filter2);
+  //console.log(filter2);
 
   return (
     <div className="">
