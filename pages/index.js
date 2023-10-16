@@ -1,6 +1,5 @@
 import React from "react";
 import Head from "next/head";
-import Gallery from "react-photo-gallery";
 import styles from "../styles/Home.module.css";
 import NavBar from "../components/NavBar";
 import { categories } from "../data/dataList";
