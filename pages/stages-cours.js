@@ -36,7 +36,13 @@ export default function Atelier() {
                   </div>
                   <div className="col text-center">
                     <div className="card-body">
-                      <h2 className=" mb-5 mb-lg-4 fs-1">Stages</h2>
+                      <div className="fs-5 text-muted text-center mt-2">
+                        Absente de France pour plusieurs années, je ne suis plus
+                        en mesure de vous proposer des cours ou des stages de
+                        poterie. On se retrouve dès mon retour ! Merci de votre
+                        compréhension.
+                      </div>
+                      {/* <h2 className=" mb-5 mb-lg-4 fs-1">Stages</h2>
                       {courses.length > 0 ? (
                         courses.map((item, index) => (
                           <Course cours={item} key={index} />
@@ -49,7 +55,7 @@ export default function Atelier() {
                           Le prix des stages comprend la terre, l’émail, le
                           matériel et les cuissons
                         </div>
-                      )}
+                      )} */}
                     </div>
                   </div>
                 </div>
@@ -58,17 +64,17 @@ export default function Atelier() {
           </div>
           <div className="row mx-5 mb-3 justify-content-center align-items-center">
             <div className={`col text-center`}>
-              <div className="mt-1 mb-lg-5 text-center fw-bold">
+              {/* <div className="mt-1 mb-lg-5 text-center fw-bold">
                 Les stages se déroulent dans mon atelier situé à Tournefeuille
                 (31).
-              </div>
-              <div className="text-center mt-4 mt-xXl-2 mb-4">
+              </div> */}
+              {/* <div className="text-center mt-4 mt-xxl-2 mb-4">
                 <button className="border shadow rounded-pill px-3 py-2">
                   <a className="" href="/contact">
                     Renseignements / Inscriptions
                   </a>
                 </button>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

@@ -34,22 +34,28 @@ export default function Actualites() {
                     />
                   </div>
                   <div className="col text-center">
-                    {actuality.map((item) => {
+                    <div className="fs-5 text-muted text-center mt-2">
+                      Absente de France pour plusieurs années, je ne suis plus
+                      en mesure de vous proposer mes créations sur les marchés.
+                      On se retrouve dès mon retour ! Merci de votre
+                      compréhension.
+                    </div>
+                    {/* {actuality.map((item) => {
                       return (
                         <div key={item.id} className="card-body">
                           <MyCardBody item={item} />
                         </div>
                       );
-                    })}
+                    })} */}
                   </div>
-                  <div className="d-md-none fw-bold fs-6 mt-5 text-center">
+                  {/* <div className="d-md-none fw-bold fs-6 mt-5 text-center">
                     Retrouvez aussi mes créations à la Cité Potière <br />6 rue
                     Saint Louis à Carcassonne
                   </div>
                   <div className="d-none d-md-block fw-bold fs-5 mt-5 text-center">
                     Retrouvez aussi mes créations à la Cité Potière <br />6 rue
                     Saint Louis à Carcassonne
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
