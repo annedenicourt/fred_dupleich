@@ -76,13 +76,13 @@ export default function Apropos() {
             </div>
             <div className="row mx-5 mb-3 justify-content-center align-items-center">
               <div className={`col text-center`}>
-                {/* <div className="text-center mt-3 mt-xXl-2 mb-4">
+                <div className="text-center mt-3 mt-xXl-2 mb-4">
                   <button className="border shadow rounded-pill px-3 py-2">
                     <a className="" href="/">
                       Découvrez mon univers{" "}
                     </a>
                   </button>
-                </div> */}
+                </div>
               </div>
             </div>
           </div>
