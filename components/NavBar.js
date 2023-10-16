@@ -57,7 +57,7 @@ export default function NavBar() {
               </li> */}
               <li className="nav-item me-3">
                 <Link href="/a-propos">
-                  <a
+                  <div
                     className={
                       router.asPath == "/a-propos"
                         ? `nav-link fw-bold ${styles.active}`
@@ -65,12 +65,12 @@ export default function NavBar() {
                     }
                   >
                     À propos
-                  </a>
+                  </div>
                 </Link>
               </li>
               <li className="nav-item me-3">
                 <Link href="/stages-cours">
-                  <a
+                  <div
                     className={
                       router.asPath == "/stages-cours"
                         ? `nav-link fw-bold ${styles.active}`
@@ -78,12 +78,12 @@ export default function NavBar() {
                     }
                   >
                     Stages
-                  </a>
+                  </div>
                 </Link>
               </li>
               <li className="nav-item me-3">
                 <Link href="/actualites">
-                  <a
+                  <div
                     className={
                       router.asPath == "/actualites"
                         ? `nav-link fw-bold ${styles.active}`
@@ -91,12 +91,12 @@ export default function NavBar() {
                     }
                   >
                     Actualités
-                  </a>
+                  </div>
                 </Link>
               </li>
               <li className="nav-item me-3">
                 <Link href="/contact">
-                  <a
+                  <div
                     className={
                       router.asPath == "/contact"
                         ? `nav-link fw-bold ${styles.active}`
@@ -104,7 +104,7 @@ export default function NavBar() {
                     }
                   >
                     Contact
-                  </a>
+                  </div>
                 </Link>
               </li>
             </ul>

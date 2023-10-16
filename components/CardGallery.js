@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import styles from "../styles/Home.module.css";
-import "react-image-lightbox/style.css";
+//import "react-image-lightbox/style.css";
 
 export default function CardGallery(props) {
   const images = props.gallery;

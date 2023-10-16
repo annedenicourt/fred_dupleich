@@ -4,7 +4,7 @@ import styles from "../styles/Home.module.css";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import { categories, categories2 } from "../data/dataList";
-import "react-image-lightbox/style.css";
+//import "react-image-lightbox/style.css";
 import CardGallery from "../components/CardGallery";
 
 export default function Galerie() {

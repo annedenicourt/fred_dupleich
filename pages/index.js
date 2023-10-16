@@ -4,7 +4,7 @@ import styles from "../styles/Home.module.css";
 import NavBar from "../components/NavBar";
 import { categories } from "../data/dataList";
 import Footer from "../components/Footer";
-import "react-image-lightbox/style.css";
+//import "react-image-lightbox/style.css";
 import CardGallery from "../components/CardGallery";
 
 export default function Home() {
@@ -49,7 +49,7 @@ export default function Home() {
             ))}
           </div>
           <div className="text-center mt-5 mb-5">
-            <button className="border rounded-pill p-2" type="button">
+            {/* <button className="border rounded-pill p-2" type="button">
               <a
                 className=""
                 target="_blank"
@@ -59,7 +59,7 @@ export default function Home() {
                 <i className="bi bi-instagram ms-2 me-3" />
                 Plus de photos sur Instagram
               </a>
-            </button>
+            </button> */}
           </div>
         </div>
         <Footer />
